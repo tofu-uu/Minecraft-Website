@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Minecraft</title>
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="main.js"></script>
+  </head>
+
+  <body>
+    <!-- NAVIGATION BAR -->
+    <p class="nav">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="quiz.html">Quiz</a>
+    </p>
+  </body>
+
+  <!-- PAGE TITLE & CONTENT -->
+  <div class="quiz">
+    <body>
+      <h1>Minecraft quiz</h1>
+      <div class="questions">
+        <hr />
+        <h2>Question 1:</h2>
+        <p>How many <b>game modes</b> does Minecraft have?</p>
+        <p>Answer: <input id="q1" type="number" /><div id="rw"></div></p>
+        <hr />
+
+        <h2>Question 2:</h2>
+        <p>
+          Is Hardcore mode available on <b>Bedrock Minecraft?</b>
+          <i>(Yes/No)</i>
+        </p>
+        <img src="img/minecraft-java-vs-bedrock.png" alt="yes" width="400px" />
+        <p>Answer: <input id="q2" type="text" /><div id="rw2"></div></p>
+        <hr />
+
+        <h2>Question 3:</h2>
+        <p>Name <b>one</b> type of mob.</p>
+        <img src="img/creeper.png" alt="creeper" width="200px" />
+        <p>Answer: <input id="q3" type="text" /><div id="rw3"></div></p>
+        <hr />
+
+        <h2>Question 4:</h2>
+        <p>What <b>colour</b> is the rarest sheep?</p>
+        <img src="img/shepq.jpg" alt="shep" width="300px" />
+        <p>Answer: <input id="q4" type="text" /><div id="rw4"></div></p>
+        <hr />
+
+
+        <p>
+          <button id="btn" class="center">SUBMIT ANSWERS
+          </button>
+
+        </p>
+
+        <h2>Your Results:</h2>
+        
+        <p><span id="output">---</span>/<span id= quizLen>---</span> (<span id="percentage">--</span>%)</p>
+        <p><span id="message"></span></p>
+        
+
+      </div>
+    </body>
+  </div>
+</html>
+ 

@@ -1,0 +1,111 @@
+@font-face {
+  font-family: "Minecraft";
+  src: url(fonts/Minecraftia-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Mine";
+  src: url(fonts/Bloxat-PDoE.ttf);
+}
+body {
+  text-align: center;
+  font-family: "Minecraft";
+}
+
+.nav a {
+  margin: 0px 25px;
+}
+
+html {
+  background: url(img/mc-ss.png) no-repeat center fixed;
+  background-size: cover;
+}
+
+.about {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 800px;
+  margin: 10px auto;
+  border-radius: 20px;
+  letter-spacing: 2px;
+  padding-bottom: 50px;
+}
+
+.quiz {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 800px;
+  margin: 10px auto;
+  border-radius: 20px;
+  letter-spacing: 2px;
+}
+
+.home {
+  margin: 50px auto;
+}
+
+h1 {
+  letter-spacing: 5px;
+  font-size: 70px;
+  padding-top: 50px;
+}
+h2 {
+  font-size: 30px;
+}
+
+.abouttext {
+  font-size: 15px;
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+i {
+  opacity: 0.5;
+}
+
+.questions {
+  text-align: left;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+}
+
+button {
+  font-family: "Minecraft";
+  cursor: pointer;
+  padding: 10px 20px;
+  background-color: darkolivegreen;
+  color: white;
+  font-size: 15px;
+  border: solid white;
+  padding-top: 17px;
+}
+
+button:hover {
+  background-color: white;
+  color: darkolivegreen;
+  border: solid darkolivegreen;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wrong {
+  border: 3px solid red;
+  color: black;
+}
+
+.right {
+  border: 3px solid green;
+  color: black;
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
